@@ -1,4 +1,5 @@
-﻿## 1.功能与`ViewController`介绍
+- 如果有的GIF加载不出来，移步[待办清单-iOS项目说明](https://blog.csdn.net/qq_35087425/article/details/112884120)
+## 1.功能与`ViewController`介绍
 **1. 查看已有待办分类，并可以新增、编辑待办分类，并为该分类选择图标**
 
  - 每个分类显示其中还未完成的项目，这是`AllListsViewController`
