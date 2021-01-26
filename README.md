@@ -136,6 +136,7 @@ class DataModel {
 ## 3.`ViewController`关系图与转场
 **1. `ViewController`关系图简介**
 - 以下“`xxViewController`”简称“`xxVC`”
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210126223754190.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM1MDg3NDI1,size_16,color_FFFFFF,t_70)
 
 - `AllListsVC`与`ChecklistsVC`在同一个导航控制器中，在`AllListsVC`中点击某分类行进入`ChecklistsVC`，`ChecklistVC`点击左上角可返回上一级
