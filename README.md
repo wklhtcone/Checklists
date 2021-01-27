@@ -844,6 +844,7 @@ override func viewDidLoad() {
 ```
 
 - `viewWillAppear()`发生在`navigationController(willShow)`之前，而`viewDidLoad()`在`viewWillAppear()`之前， 因此，还没等上次访问位置改为 -1 就完成了转场，似乎没问题，运行效果如下：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210125223822217.GIF)
 - 可以看出，第一次成功跳转到了上次的访问位置，在没有回到主页面的情况下将App终止，第二次再进时本该还是原来的位置，却到了主页面
 
@@ -902,7 +903,7 @@ dataModel.indexOfLastList = -1
 var dueDate = Date()//Date类型，为了更新待办事项ChecklistClass类中的变量
 
 
-//datePicker代理方法，datePicker更改后更新 Label 视图和 Model 中的值
+//datePicker更改后更新 Label 视图和 Model 中的值
 @IBAction func dataChanged(_ datePicker: UIDatePicker) {
 	//更新 Model 和 View
     dueDate = datePicker.date
